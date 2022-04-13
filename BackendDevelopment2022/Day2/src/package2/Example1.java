@@ -7,7 +7,7 @@ public class Example1 {
 		
 		int x;
 		
-		x = -5;
+		x = -0;
 		
 		if (x <0 ) {
 			x = -x;
