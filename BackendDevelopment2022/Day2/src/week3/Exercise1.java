@@ -7,11 +7,20 @@ public class Exercise1 {
 
 		int i =10;
 		
-		while (i<=50) {
+		//while (i<=50) {
 			
-			System.out.println(i);
+			//System.out.println(i);
+			//i++;
+			
+		//}
+		
+		//another way
+		i = 0;
+		while (i<41) {
+		
+			System.out.println(i+10);
 			i++;
-			
+		
 		}
 	}
 
