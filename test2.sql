@@ -40,10 +40,34 @@ values(1103,"Trump","Donald",75);
 insert into Persons (ID,LastName,FirstName,Age)
 values(1104,"Doo","John",66);
 
-alter table Persons( 
-	primary key(ID)
-);
+alter table Persons
+add primary key(ID);
 
 update Persons
 set FirstName = "Abraham"
 where ID = 1104;
+
+select FirstName 
+from Persons;
+
+select * from Persons;
+
+
+select *  from Persons where age<78 or age is null;
+
+insert into Persons (ID,LastName,FirstName,Age)
+values(1122,"Clinton","Hilary",66);
+
+insert into Persons (ID,LastName,FirstName,Age)
+values(1115,"Mask","Elon");
+
+select * from Persons order by FirstName, LastName desc;
+
+insert into Persons (ID,LastName,FirstName,Age)
+values(1125,"Duck","Donald", 56);
+
+delete 
+from Persons
+where ID = 1102;
+
+
